@@ -1,38 +1,23 @@
-.App {
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+
+body{
+  background-image:radial-gradient(rgb(214, 72, 72),rgb(92, 135, 203));
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-title{
+  color: aqua;
+  padding: 1rem;
+  margin:1rem;
+  font-size: 6rem;
+  font-family: 'Bigelow Rules', serif;
+  letter-spacing:5px;
+  text-shadow: 2 px 6px 10px #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
